@@ -2,11 +2,12 @@
 
 ## 基本情報
 
-| Name   | 矢崎　祐樹                                       |
-| ------ | ------------------------------------------------ |
-| Blog   | [zackey推し](https://kic-yuuki.hatenablog.com/)  |
-| Qiita  | [@zaki_zaki](https://qiita.com/zaki_zaki)        |
-| GitHub | [@zakizaki-ri9](https://github.com/zakizaki-ri9) |
+| Name        | 矢崎　祐樹                                               |
+| ----------- | -------------------------------------------------------- |
+| Blog        | [zackey推し](https://kic-yuuki.hatenablog.com/)          |
+| Qiita       | [@zaki_zaki](https://qiita.com/zaki_zaki)                |
+| GitHub      | [@zakizaki-ri9](https://github.com/zakizaki-ri9)         |
+| SpeakerDeck | [zucky_zakizaki](https://speakerdeck.com/zucky_zakizaki) |
 
 ## スキル
 
@@ -19,18 +20,27 @@
   - Vue.js
   - jQuery
   - D3.js
-- Go ※趣味で少々
 - C#
   - .NET Framework(4.x)
-  - Xamarin.Forms ※趣味で少々
+  - Xamarin.Forms
+    - 業務経験はない
+      - 技術調査のためハンズオンや社内アプリ開発で使用した程度
 - Java
-  - SprintBoot ※趣味で少々
+  - JSP・サーブレット
+  - SprintBoot
+    - 業務経験はない
+      - DI等の概念を理解するため勉強のために使用した程度
+- Go
+  - 業務経験は少ない
+    - 所属するコミュニティのbot開発として使用
+    - 開発現場のSlackbotがGoで書かれており、コード解析＆Issueを立てた
 
 ### DB
 
 - MySQL(5.7~)
 - PostgreSQL(10.0~)
 - SQLServer(2017~)
+- Oracle(11=)
 
 ### ツール・OS・他
 
@@ -40,8 +50,11 @@
 - Windows / macOS
 - Visual Studio Code
 - Visual Studio 2017 Community
+- AWS
+  - AWSCLIの操作がわかる程度
+  - AWSコンソール(GUI)からの操作は勉強中
 
-## 強みとこれから伸ばしたいこと
+## 強み / これから伸ばしたいこと / 興味があること
 
 - 強み
   - Ruby on Rails / Vue.jsの実務経験
@@ -53,7 +66,21 @@
   - バックエンドからフロントorインフラ方面へ横断的に知見を伸ばしていきたい
   - OSSやコミュニティへ貢献していきたい
     - 技術的なコミットだけでなくイベントの運営などもサポートしていき、日本のエンジニアの技術力向上の下支えとなる活動をしたい
+      - [エンジニアの登壇を応援する会](https://portal.engineers-lt.info/)の運営として参画中
+        - 運営メンバによる合宿企画中
+        - Slackワークスペースのbotを開発
+      - [write-blog-every-week](https://write-blog-every-week.netlify.com/)という週1でブログを更新することを目標としたコミュニティに参画中
     - この活動結果やノウハウの所属する会社へフィードバックしていきたい
+      - 現職にて社内勉強会運営中
+        - ブログやQiitaの執筆推進活動中
+        - TechBlog執筆中
+- 興味があること
+  - アウトプット活動の推進
+    - 自分と他者を含めたスキルアップを図りたいというのが目的
+    - イベントやTechBlog等を企画・執筆することにより所属する組織を成長させていきたいのが目的
+  - 自社プロダクトの立ち上げと開発
+    - 既存システムの拡張や保守といった開発経験が多いため、企画→設計→製造というフェーズに携わった経験が少ない。
+    - ペルソナ設定→要件→設計→製造といったフェーズに携わり、プロダクトをブラシアップすると共に自分も成長していきたい。
 
 # 職務経歴
 

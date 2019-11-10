@@ -8,6 +8,8 @@
 | Qiita       | [@zaki_zaki](https://qiita.com/zaki_zaki)                |
 | GitHub      | [@zakizaki-ri9](https://github.com/zakizaki-ri9)         |
 | SpeakerDeck | [zucky_zakizaki](https://speakerdeck.com/zucky_zakizaki) |
+| Forkwell | [@zakizaki-ri9](https://portfolio.forkwell.com/@zakizaki-ri9) |
+| LAPRAS | [プロフィール](https://lapras.com/public/FCUDBRL) |
 
 ## スキル
 
@@ -16,8 +18,14 @@
 - Ruby
   - Ruby(2.3~)
   - Ruby on Rails(5.1~)
+    - RailsをベースとしたAPI開発の経験あり
+    - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり
 - JavaScript
   - Vue.js
+    - Pug / Vuex / vee-validate / vue-material / VueBootstrap
+    - コンポーネントの設計経験あり
+      - デザインは興味あるが不得意
+    - Jestなどのテストコードを書いた経験はなし
   - jQuery
   - D3.js
 - C#
@@ -45,35 +53,26 @@
 ### ツール・OS・他
 
 - Git / GitHub
-- Slack
+- Slack / ChatWork
 - Docker
 - Windows / macOS
 - Visual Studio Code
 - Visual Studio 2017 Community
 - AWS
-  - AWSCLIの操作がわかる程度
-  - AWSコンソール(GUI)からの操作は勉強中
+  - EC2 / S3 / CodePipeline / RDS / WAF / ElasticBeanstalk
+    - 一から構築した経験はない
+    - 概念を理解、変更（メンテナンス）を実施した経験あり
+  - AWSCLIは調べながら使用できる
 
 ## 強み / これから伸ばしたいこと / 興味があること
 
 - 強み
   - Ruby on Rails / Vue.jsの実務経験
-  - フロントからバックエンドまで一通りの実装経験あり
-  - 既に実装されたシステムを理解、拡張・保守するのが得意
-  - 課題整理が得意
-  - 好奇心が強く新しもの好きで、トレンドを追うことが好き
+  - フロントからサーバサイドまでひととおりの実装経験あり
+  - すでに実装されたシステムを理解、拡張・保守するのが得意
+  - 足回り（eslint / Prettierなど）の整備が得意
 - これから伸ばしてゆきたいこと
-  - バックエンドからフロントorインフラ方面へ横断的に知見を伸ばしていきたい
-  - OSSやコミュニティへ貢献していきたい
-    - 技術的なコミットだけでなくイベントの運営などもサポートしていき、日本のエンジニアの技術力向上の下支えとなる活動をしたい
-      - [エンジニアの登壇を応援する会](https://portal.engineers-lt.info/)の運営として参画中
-        - 運営メンバによる合宿企画中
-        - Slackワークスペースのbotを開発
-      - [write-blog-every-week](https://write-blog-every-week.netlify.com/)という週1でブログを更新することを目標としたコミュニティに参画中
-    - この活動結果やノウハウの所属する会社へフィードバックしていきたい
-      - 現職にて社内勉強会運営中
-        - ブログやQiitaの執筆推進活動中
-        - TechBlog執筆中
+  - バックエンド・フロントから、デザイン・インフラ方面へ横断的に知見を伸ばしていきたい
 - 興味があること
   - アウトプット活動の推進
     - 自分と他者を含めたスキルアップを図りたいというのが目的
@@ -81,21 +80,55 @@
   - 自社プロダクトの立ち上げと開発
     - 既存システムの拡張や保守といった開発経験が多いため、企画→設計→製造というフェーズに携わった経験が少ない。
     - ペルソナ設定→要件→設計→製造といったフェーズに携わり、プロダクトをブラシアップすると共に自分も成長していきたい。
+  - 広報活動
+    - 部署問わずメンバーの取り組みや考えを外部へ発信し、以下のことを行いたい
+      - 対内部: 組織拡大とともに発生する「誰がなにやっている」不透明感をなくす
+      - 対外部: カルチャーにマッチする人材へのアプローチ
+
+# おもな制作物
+
+- https://github.com/engineers-lt/aneki-bot-go-netlify-functions
+  - Go / Netlify Functions
+  - エンジニアコミュニティのSlackbotで使用
+- https://github.com/zakizaki-ri9/gridsome-trattoria-site
+  - Gridsome（Vue.js製の静的サイトジェネレータ） x Netlify
+  - 実家のお店サイト
 
 # 職務経歴
 
-## 2017.12 - 現在: 株式会社Rosso
+## 2019.05 - 現在: 株式会社ランチェスター
+
+- 職務:サーバサイドエンジニア
+
+### プロダクト・ソリューション開発(2019.05~)
+
+- 担当: メイン：フロント、サブ：バックエンド・インフラ
+- 業務:詳細設計、製造、単体テスト
+- 技術スタック:Ruby on Rails5 / Vue.js / Docker / AWS(ElasticBeanstalk,WAF,CodePipeline)
+
+メイン業務は、自社プロダクトを元に導入企業向けのカスタマイズ開発。  
+サブ業務は、自社プロダクトのIssueを拾い修正PRを投げるといった形で業務を遂行しました。
+
+開発はVue.jsを用いたフロントエンドの開発をメインで担当し、  
+
+- 冗長なコードをコンポーネント化するなどのリファクター
+- 足回りの整備（eslint x prettier x lint-staged x huskyの導入）
+- ライブラリバージョンアップ調査（vue-cli v2→v4など）
+
+を行いました。
+
+## 2017.12 - 2019.04: 株式会社Rosso
 
 - 職務:システムエンジニア
 
-### マーケティング支援サービスの開発と拡張(2018.09~)
+### マーケティング支援サービスの開発と拡張(2018.09~2019.04)
 
 - 担当:バックエンド、フロント
 - 業務:要件整理、詳細設計、製造、単体テスト
 - 技術スタック:Ruby on Rails5 / Vue.js / Docker / AWS(SQS,S3,RDB - MySQL5.7) / PostgreSQL10.x
 
-メンバーとして参画、10日間を1Sprintとしたスクラム開発を行なっています。
-コードレビューはGitHubのPR、単体テストはRSpecを用いたユニットテストを実施しています。
+メンバーとして参画、10日間を1Sprintとしたスクラム開発を行なっていました。　　
+コードレビューはGitHubのPR、単体テストはRSpecを用いたユニットテストを実施しました。
 
 1. 要件定義(プロダクトオーナーの要件を明確化)
 2. 詳細設計(新機能の場合のみ、改修は規模に応じて)

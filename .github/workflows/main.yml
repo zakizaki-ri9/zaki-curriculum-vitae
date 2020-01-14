@@ -1,0 +1,11 @@
+name: Create PDF
+on: [push, pull_request]
+jobs:
+  create_pdf:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create PDF
+      uses: mkrakowitzer/actions-makepdfs@1.1
+      with:
+        markdown_dir: "/"
+        output_dir: "/"

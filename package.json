@@ -2,7 +2,8 @@
   "name": "zaki-curriculum-vitae",
   "version": "1.0.0",
   "description": "ざきの職務履歴書",
-  "main": "index.mjs",
+  "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakizaki-ri9/zaki-curriculum-vitae.git"

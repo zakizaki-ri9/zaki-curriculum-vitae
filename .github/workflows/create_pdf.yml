@@ -15,7 +15,7 @@ jobs:
       - run: |
           node -v
           npm install
-          node ./index.mjs
+          node ./index.js
       - uses: actions/upload-artifact@v1
         with:
           name: create-pdf

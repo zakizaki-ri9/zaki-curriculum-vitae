@@ -1,0 +1,20 @@
+{
+  "name": "zaki-curriculum-vitae",
+  "version": "1.0.0",
+  "description": "ざきの職務履歴書",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakizaki-ri9/zaki-curriculum-vitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakizaki-ri9/zaki-curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/zakizaki-ri9/zaki-curriculum-vitae#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "md-to-pdf": "^2.8.2"
+  }
+}

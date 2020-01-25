@@ -2,11 +2,11 @@
 
 ## 基本情報
 
-| Name        | 矢崎　祐樹                                               |
-| ----------- | -------------------------------------------------------- |
-| Blog        | [zackey推し](https://kic-yuuki.hatenablog.com/)          |
-| Qiita       | [@zaki_zaki](https://qiita.com/zaki_zaki)                |
-| GitHub      | [@zakizaki-ri9](https://github.com/zakizaki-ri9)         |
+| Name | 矢崎 祐樹 |
+| --- | --- |
+| Blog | [zackey推し](https://kic-yuuki.hatenablog.com/) |
+| Qiita | [@zaki_zaki](https://qiita.com/zaki_zaki) |
+| GitHub | [@zakizaki-ri9](https://github.com/zakizaki-ri9) |
 | SpeakerDeck | [zucky_zakizaki](https://speakerdeck.com/zucky_zakizaki) |
 | Forkwell | [@zakizaki-ri9](https://portfolio.forkwell.com/@zakizaki-ri9) |
 | LAPRAS | [プロフィール](https://lapras.com/public/FCUDBRL) |
@@ -160,7 +160,7 @@
 4. 結合テスト(手動でのシナリオテスト)
 5. 各種(PM,QA)レビュー
 
-サービスのメジャーバージョンアップということで、
+サービスのメジャーバージョンアップということで、  
 元々Slimで書かれていたViewをVue.jsでSPA化するという方針がありました。
 
 私はMockから使用頻度の高い要素を洗い出し→コンポーネント化することに成功しました。
@@ -173,7 +173,8 @@
 
 10年以上続いている機器管理システムの保守および拡張を行うSEという立ち位置で参画しました。
 
-主にユーザー問い合わせ内容の深堀、ソースコードやDBから調査＆報告書をExcelやRedmineにまとめるということを行いました。
+主にユーザー問い合わせ内容の深掘り、  
+ソースコードやDBから調査＆報告書をExcelやRedmineにまとめるということを行いました。
 
 #### 既存施工管理Webアプリケーションの拡張対応案件(2017.12~2018.06)
 
@@ -204,7 +205,8 @@ JavaFXを利用したLinux(Ubuntu)向けGUIアプリケーション開発のリ�
 
 主に顧客との要件整理と仕様調整、スケジュール調整を行いました。
 
-また、技術調査のため、PythonとJavaでOpenCVという画像編集用ライブラリを用いて動画ファイルから画像取得、画像加工の調査を行いました。
+また、技術調査のため、PythonとJavaでOpenCVという画像編集用ライブラリを用いて  
+動画ファイルから画像取得、画像加工の調査を行いました。
 
 #### デジタルサイネージ開発(2016.10~2017.03)
 
@@ -224,8 +226,10 @@ PreferenceActivityという設定情報を保存する仕組みを使って設�
 
 特定企業向けの生産管理システム開発に参画し、CASIO製PDA（VC++）、Windowsアプリ（C#）を開発しました。
 
-PDA-サーバ間はWebサービス（ASP.NET）、DBはSQLServerを使用しました。
+PDA〜サーバ間はWebサービス（ASP.NET）、DBはSQLServerを使用しました。
 
 新卒の頃から約8年間従事し、製造→設計→要件定義＆保守のように下流→上流工程をひととおり経験いたしました。
 
-システム拡大に伴い、DBアクセス遅延問題が発生しましたが、全体的なSQLのリファクタリング（インデックスが使用されているか等をSQL構文や実行計画から確認など）を実施、改善しました。
+システム拡大に伴い、DBアクセス遅延問題が発生しましたが、  
+全体的なSQLのリファクタリング（インデックスが使用されているか等をSQL構文や実行計画から確認など）を実施、  
+改善しました。

@@ -1,7 +1,7 @@
 {
   "name": "zaki-curriculum-vitae",
   "version": "1.0.0",
-  "description": "ざきの職務履歴書",
+  "description": "ざきの職務経歴書",
   "main": "index.js",
   "type": "module",
   "repository": {

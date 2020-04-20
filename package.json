@@ -16,6 +16,6 @@
   "homepage": "https://github.com/zakizaki-ri9/zaki-curriculum-vitae#readme",
   "devDependencies": {},
   "dependencies": {
-    "md-to-pdf": "^2.8.2"
+    "md-to-pdf": "^3.1.0"
   }
 }

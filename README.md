@@ -11,8 +11,6 @@
 | Forkwell | [@zakizaki-ri9](https://portfolio.forkwell.com/@zakizaki-ri9) |
 | LAPRAS | [プロフィール](https://lapras.com/public/FCUDBRL) |
 
-- 現年収: 480万円
-
 ## スキル
 
 ### 言語/フレームワーク/ライブラリ

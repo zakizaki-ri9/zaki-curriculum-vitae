@@ -20,31 +20,16 @@
   - Ruby on Rails(5.1~)
     - RailsをベースとしたAPI開発の経験あり
     - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり
-- JavaScript
-  - Vue.js
-    - Pug / Vuex / vee-validate / vue-material / VueBootstrap
-    - コンポーネントの設計経験あり
-      - デザインは興味あるが不得意
-    - Jestなどのテストコードを書いた経験は少し
-  - jQuery
-  - D3.js
+- JavaScript / TypeScript
+  - Vue.js 3.x
+  - Nuxt3
 - C#
   - .NET Framework(4.x)
-  - Xamarin.Forms
-    - 業務経験はない
-      - 技術調査のためハンズオンや社内アプリ開発で使用した程度
 - Java
   - JSP・サーブレット
-  - SprintBoot
-    - 業務経験はない
-      - DI等の概念を理解するため勉強のために使用した程度
-- Go
-  - 業務経験は少ない
-    - 所属するコミュニティのbot開発として使用
-    - 開発現場のSlackbotがGoで書かれており、コード解析＆Issueを立てた
 - Python
-  - 2.x系の経験が多く、3.x系は経験が少ない
-  - Django をベースとした API やバッチ処理の設計・実装を行っている
+  - 2.x, 3.x
+  - Django をベースとした API やバッチ処理の設計・実装
 
 ### DB
 
@@ -61,27 +46,26 @@
 - Docker
 - Windows / macOS
 - Visual Studio Code
-- Visual Studio 2017 Community
 - AWS
   - EC2 / S3 / CodePipeline / RDS / WAF / ElasticBeanstalk
     - 一から構築した経験はない
     - 概念を理解、変更（メンテナンス）を実施
   - AWSCLIの使用経験あり
 - GCP
-  - GoogleAppEngine / CloudFunctions / CloudScheduler / BigQuery
+  - Google App Engine / CloudFunctions / CloudScheduler / BigQuery
 
-## 強み / これから伸ばしたいこと / 興味があること / 大事にしたいこと
+## 強み / 興味があること
 
 - 強み
   - Ruby on Rails / Python / TypeScript / Vue.jsの実務経験
-  - フロントからサーバサイドまでひととおりの実装経験あり
-  - すでに実装されたシステムを理解、拡張・保守するのが得意
-  - 足回り（eslint / Prettierなど）の整備が得意
-- これから伸ばしたいこと
-  - バックエンド・フロントから、デザイン・インフラ方面へ横断的に知見を伸ばしていきたい
+  - フロントエンド・サーバーサイドまでひととおりの実装経験
+  - すでに実装されたシステムを理解、拡張・保守
+  - 足回り（eslint / Prettierなど）の整備
 - 興味があること
-  - リリース -> フィードバックや数値ベースの改善を早く回す
-  - サーバサイド、フロントエンド、ドキュメントの保守を考慮した設計
+  - フロントエンドを中心としたアプリケーション開発
+  - フロントエンド・サーバーサイド問わず、事業成長・成功を目標とした開発
+  - ジェネレーティブ AI を利用した開発速度向上・事業支援導入
+
 ## 主な課外活動・実績
 ### 開発系
 
@@ -114,18 +98,51 @@
 
 - 職務: エンジニア
 
-#### 社内向け管理画面開発(2020.06~)
+#### 既存 toB 向けアプリケーションの再設計・リライト(2022.12~)
+
+- 担当:主にフロントエンド
+- 業務:詳細設計、製造、単体テスト
+- 技術スタック:Nuxt3 / Auth0 / Terraform
+
+主に次を行いました。
+
+- PDM, 開発側リーダーとともに再設計に伴う要件定義、画面設計〜実装
+- Nuxt3 を利用したフロントエンド周りの実装
+  - Storybook, Chromatic を利用したコンポーネント開発、デザイナーと協働
+  - Vitest, UnoCss, Sentry の導入
+- vite-plugin-singlefile を利用した Auth0 向けの HTML ファイル生成
+
+#### 社内向け管理画面開発(2020.06~2022.12)
 
 - 担当:フロント、サーバサイド
 - 業務:詳細設計、製造、単体テスト
-- 技術スタック:Python2.x / Djang1.x / AngularJS / Vue.js
+- 技術スタック:Python2.x / Django1.x / AngularJS / Vue.js2.x / Google App Engine / MySQL5.7
 
-ディレクターやプロダクトオーナーがまとめた要件を元に、  
-サーバサイド〜フロントを包括して設計・実装しています。
+主に次を行いました。
 
-### 2019.05 - 現在(副業): 株式会社ランチェスター
+- ディレクターやプロダクトオーナーがまとめた要件を元に、サーバサイド〜フロントを包括して設計・実装
+- ユーザー系テーブル新設に伴う、データマイグレーション・参照先モデルの変更
+- LTS 切れの既存機能をリライト計画・進行
+  - フロントエンドのコードを AngularJS -> Vue2 x CompositionAPI へのリライト
+  - サーバサイドのコードを Python2.x -> Python3.x へのリライト
+
+### 2019.05 - 2022.02: 株式会社ランチェスター
 
 - 職務: エンジニア
+
+#### 副業(2020.10~2022.02)
+
+- 担当: フロント、CI周り
+- 業務:詳細設計、製造、単体テスト
+- 技術スタック:Ruby on Rails5 / Vue.js / Docker / GitHub Actions / AWS(ECR)
+
+主に次を行いました。
+
+- フロントエンドを中心とした機能開発
+- フロントエンド（Vue.js） の TypeScript 化
+- GitHub Actions x ECR を利用した CI 整備
+  - サーバサイド: RSpec, Rubocop の実行と Reviewdog によるコメント
+  - フロント: ESLint の実行と Reviewdog によるコメント
 
 #### プロダクト・ソリューション開発(2019.05~2020.05)
 
@@ -143,20 +160,6 @@
 - ライブラリバージョンアップ調査（vue-cli v2→v4など）
 
 を行いました。
-
-#### 副業(2020.10~)
-
-- 担当: フロント、CI周り
-- 業務:詳細設計、製造、単体テスト
-- 技術スタック:Ruby on Rails5 / Vue.js / Docker / GitHub Actions / AWS(ECR)
-
-主に行っている作業は次です。
-
-- フロントエンドを中心とした機能開発
-- フロントエンド（Vue.js） の TypeScript 化
-- GitHub Actions x ECR を利用した CI 整備
-  - サーバサイド: RSpec, Rubocop の実行と Reviewdog によるコメント
-  - フロント: ESLint の実行と Reviewdog によるコメント
 
 ### 2017.12 - 2019.04: 株式会社Rosso
 

@@ -2,9 +2,10 @@
 
 ## 基本情報
 
-| Name | 矢崎 祐樹 |
+| 外部サイト | リンク | 
 | --- | --- |
-| Blog | [zackey推し](https://kic-yuuki.hatenablog.com/) |
+| Blog | [はてなブログ](https://kic-yuuki.hatenablog.com/) |
+| Zenn | [zucky_zakizaki](https://zenn.dev/zucky_zakizaki) |
 | Qiita | [@zaki_zaki](https://qiita.com/zaki_zaki) |
 | GitHub | [@zakizaki-ri9](https://github.com/zakizaki-ri9) |
 | SpeakerDeck | [zucky_zakizaki](https://speakerdeck.com/zucky_zakizaki) |
@@ -15,37 +16,34 @@
 
 ### 言語/フレームワーク/ライブラリ
 
+- JavaScript / TypeScript
+  - Vue.js 3.x
+  - Nuxt3.x
+- Python
+  - 2.x, 3.x
+  - Django をベースとした API やバッチ処理の設計・実装
 - Ruby
   - Ruby(2.3~)
   - Ruby on Rails(5.1~)
     - RailsをベースとしたAPI開発の経験あり
-    - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり
-- JavaScript / TypeScript
-  - Vue.js 3.x
-  - Nuxt3
+    - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり¥
 - C#
   - .NET Framework(4.x)
-- Java
-  - JSP・サーブレット
-- Python
-  - 2.x, 3.x
-  - Django をベースとした API やバッチ処理の設計・実装
 
 ### DB
 
+- MongoDB
 - MySQL(5.7~)
 - PostgreSQL(10.0~)
 - SQLServer(2017~)
 - Oracle(11=)
 
-### ツール・OS・他
+### ツール・SaaSなど
 
 - Git / GitHub
 - Slack / ChatWork
 - Redash
 - Docker
-- Windows / macOS
-- Visual Studio Code
 - AWS
   - EC2 / S3 / CodePipeline / RDS / WAF / ElasticBeanstalk
     - 一から構築した経験はない
@@ -57,48 +55,43 @@
 ## 強み / 興味があること
 
 - 強み
-  - Ruby on Rails / Python / TypeScript / Vue.jsの実務経験
+  - TypeScript / Vue.js / Nuxt の実務経験
   - フロントエンド・サーバーサイドまでひととおりの実装経験
   - すでに実装されたシステムを理解、拡張・保守
   - 足回り（eslint / Prettierなど）の整備
 - 興味があること
-  - フロントエンドを中心としたアプリケーション開発
   - フロントエンド・サーバーサイド問わず、事業成長・成功を目標とした開発
-  - ジェネレーティブ AI を利用した開発速度向上・事業支援導入
+  - 生成 AI を利用した開発速度向上・事業支援導入
 
-## 主な課外活動・実績
-### 開発系
-
-- https://github.com/engineers-lt/aneki-bot-go-netlify-functions
-  - Go / Netlify Functions
-  - [エンジニアの登壇を応援する会](https://portal.engineers-lt.info)のSlackbotで使用
-- https://github.com/zakizaki-ri9/gridsome-trattoria-site
-  - Gridsome（Vue.js製の静的サイトジェネレーター） / Netlifyでホスティング
-  - [実家のお店](https://www.instagram.com/trattoriaporto/)の[ホームページ](https://trattoria-e-bar-porto-yamanashi.netlify.com)
-
-### 執筆系
+## 課外活動
 
 - [【合同誌】エンジニアの成長を応援する本](https://booth.pm/ja/items/1317843)の第11章を執筆
 - [【合同誌】ワンストップ目標設定](https://booth.pm/ja/items/1572943)の第25章を執筆
 
-### コミュニティ系
-
-- [エンジニアの登壇を応援する会](https://portal.engineers-lt.info)
-  - コアスタッフとしての参加経験あり
-    - イベント参加確認のbot開発
-    - 合宿（ワークショップ）のしおり作成等を担当
-      - [合宿参加レポート](https://kic-yuuki.hatenablog.com/entry/2019/03/12/093359)
-- [技術書同人誌博覧会](https://gishohaku.dev)
-  - コアスタッフとしての参加経験あり
-    - 主に[公式ブログ](https://blog.gishohaku.dev)の執筆担当
-
 ## 職務経歴
 
-### 2020.06 - 現在: 株式会社ビザスク
+### 2023.09 - 現在: 株式会社TENTIAL
 
 - 職務: エンジニア
 
-#### 既存 toB 向けアプリケーションの再設計・リライト(2022.12~)
+#### ECサイト開発(2023.09~現在)
+
+- 担当:フロントエンド、サーバーサイド
+- 技術スタック:Nuxt3 / Terraform / MongoDB
+
+主に次を行いました。
+
+- アンケート等の機能開発
+- 事業部・デザイナーと協力してデザインリニューアルの要件整合・スケジュール調整・開発
+- CPU, メモリ, 表示速度等のパフォーマンス改善
+  - flamegraph を用いた負荷の高い処理特定 -> 改善
+  - ヒープダンプをもとにメモリリークの特定 -> 改善
+
+### 2020.06 - 2023.08: 株式会社ビザスク
+
+- 職務: エンジニア
+
+#### 既存 toB 向けアプリケーションの再設計・リライト(2022.12~2023.08)
 
 - 担当:主にフロントエンド
 - 業務:詳細設計、製造、単体テスト

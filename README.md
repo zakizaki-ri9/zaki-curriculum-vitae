@@ -26,7 +26,7 @@
   - Ruby(2.3~)
   - Ruby on Rails(5.1~)
     - RailsをベースとしたAPI開発の経験あり
-    - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり¥
+    - ActiveRecordのマイグレーションおよび[ridgepole](https://github.com/winebarrel/ridgepole)の使用経験あり
 - C#
   - .NET Framework(4.x)
 
@@ -77,7 +77,7 @@
 #### ECサイト開発(2023.09~現在)
 
 - 担当:フロントエンド、サーバーサイド
-- 技術スタック:Nuxt3 / Terraform / MongoDB
+- 技術スタック:Nuxt3 / Terraform / MongoDB / AWS
 
 主に次を行いました。
 
